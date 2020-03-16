@@ -1,0 +1,36 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+
+  <!--<remove-node path="/api/package[@name='kawa']" />-->
+  <remove-node path="/api/package[@name='kawa.lang']" />
+  <remove-node path="/api/package[@name='kawa.lib']" />
+  <remove-node path="/api/package[@name='kawa.lib.kawa']" />
+  <remove-node path="/api/package[@name='kawa.lib.rnrs']" />
+  <remove-node path="/api/package[@name='kawa.lib.rnrs.arithmetic']" />
+  <remove-node path="/api/package[@name='kawa.lib.scheme']" />
+  <attr path="/api/package[@name='com.ftsafe']/class[@name='CCIDScheme']" name="obfuscated">true</attr>
+  <attr path="/api/package[@name='com.ftsafe']/class[@name='CCIDScheme']" name="managedName">CCIDSchemeBindingName</attr>
+  <remove-node path="/api/package[@name='gnu.expr']" />
+  <remove-node path="/api/package[@name='gnu.bytecode']" />
+  <remove-node path="/api/package[@name='gnu.ecmascript']" />
+  <remove-node path="/api/package[@name='gnu.kawa.android']" />
+  <remove-node path="/api/package[@name='gnu.kawa.format']" />
+  <remove-node path="/api/package[@name='gnu.kawa.functions']" />
+  <remove-node path="/api/package[@name='gnu.kawa.io']" />
+  <remove-node path="/api/package[@name='gnu.kawa.reflect']" />
+  <remove-node path="/api/package[@name='gnu.kawa.sax']" />
+  <remove-node path="/api/package[@name='gnu.kawa.util']" />
+  <remove-node path="/api/package[@name='gnu.kawa.xml']" />
+  <remove-node path="/api/package[@name='gnu.kawa.xslt']" />
+  <remove-node path="/api/package[@name='gnu.lists']" />
+  <remove-node path="/api/package[@name='gnu.mapping']" />
+  <remove-node path="/api/package[@name='gnu.math']" />
+  <remove-node path="/api/package[@name='gnu.text']" />
+</metadata>
